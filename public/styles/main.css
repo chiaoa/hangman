@@ -1,0 +1,75 @@
+body {
+    background-color: #10439f;
+}
+
+@font-face {
+    font-family: 'Blanka';
+    src: url(../fonts/Blanka-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Architype';
+    src: url(../fonts/THEOVD__.TTF) format('opentype');
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 500px;
+    height: 100vh;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #874ccc;
+    color: white;
+    border: 2px solid white;
+    border-radius: 32px;
+    width: 400px;
+    height: 250px;
+}
+
+.title h1 {
+    font-family: 'Blanka', sans-serif;
+    color: white;
+    font-size: 5rem;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 35px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit button {
+    background-color: #c65bcf;
+    color: white;
+    font-family: 'Architype', sans-serif;
+    font-size: 0.8rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 35px;
+}
+
+.theme h2 {
+    font-family: 'Architype', sans-serif;
+    font-size: 1.5rem;
+}
+
+

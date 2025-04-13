@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  background: url("img/cityscape.jpg");
+  background: url("../img/cityscape.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,4 +189,4 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Rajdhani', sans-serif; */
 
 
-// Have a modal pop up that tells the player what the anime was when they lose all of their lives
+/* Have a modal pop up that tells the player what the anime was when they lose all of their lives */
